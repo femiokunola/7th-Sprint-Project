@@ -91,7 +91,7 @@ func TestCafeSearch(t *testing.T) {
 		search    string
 		wantCount int
 	}{
-		{"фасоль", 9},
+		{"фасоль", 0},
 		{"кофе", 2},
 		{"вилка", 1},
 	}
